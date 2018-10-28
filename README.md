@@ -5,21 +5,28 @@ its credentials.
 1) Project Overview
 
 Users will be prompted with a login screen with two buttons, a log in one and a sign up one. If an user does not have an account created
-in the system, it will not be able to log into the system. Therefore, users can create an account by providing its first name, surname, username
-and a password. Once the account is created, users will be able to log in succesfully.
+in the system, it will not be able to log into the system. Therefore, users can create an account by providing its first name, surname, email,username and a password. Once the account is created, users will be able to log in succesfully.
+
+User will be able to log in using its username or email address.
 
 2) Input Considerations
 
-Inputs in this application are as follow:
-  -Log in Frame
-    -Username
-    -Password
-  -Sign up Frame
-    -First Name
-    -Surname
-    -Username
-    -Password
+There are five inputs in this application.
+
+1) First name, users will introduce a string containing information related to its first name, numbers are allowed in this field.
+2) Surname, users will enter a string with information related to its surname name, numbers are also allowed in this field. 
+3) Email Address, users will need to enter a valid email address that must exists as well (e.g. yourvalidemail@validDomain.com). If users do not enter a valid email address, they will be prompted with an error message asking them to enter a valid one.
+4) Username, this need to be a valid one as the application does not accept duplicates. Therefore, if user enter a username which is already taken, an error message will be displayed.
+5) Password, this will be the key to access the application. Password must to be 8 character or longer, it must have at least an uppercase letter, it must have at least a number and it needs to have at least one special character"
+
+3) Output Considerations
+
+Once the users sign up sucessfully in the application, a message will be displayed to inform them an user have been sucessfully created. If users log in successfully, they will be prompted with a message that they have sucessfully logged into the application.
+
+4)
+
+ 
     
 
-To be completed
+
     
