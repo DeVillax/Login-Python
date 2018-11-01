@@ -23,7 +23,31 @@ There are five inputs in this application.
 
 Once the users sign up sucessfully in the application, a message will be displayed to inform them an user have been sucessfully created. If users log in successfully, they will be prompted with a message that they have sucessfully logged into the application.
 
-4)
+4) Testing environment
+
+Python 3.7
+
+5) How to run the code and tests
+ 
+ 5.1) Running the code
+  This program can be executed through the system console by accessing the directory where files are and executing the following 
+  command line.
+   
+   python app.py
+  
+  The program will display the Log In Frame.
+  
+  5.2) Running tests
+   Tests can be found in the test folder. They can be executed through the system console. Once the user is in the right folder where 
+   modules are stored, the following commands will execute the tests.
+   
+   python test_app.py
+   python test_database.py
+   
+ 6) General Information
+  
+  The code contains comments to make it easier to understand what each method is in charge of.
+  
 
  
     
