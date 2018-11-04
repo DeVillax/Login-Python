@@ -27,7 +27,7 @@ Once the users sign up sucessfully in the application, a message will be display
 
 Python 3.7
 
-5) How to run the code and tests
+5) How to run the code 
  
  5.1) Running the code
   This program can be executed through the system console by accessing the directory where files are and executing the following 
@@ -36,13 +36,6 @@ Python 3.7
    python app.py
   
   The program will display the Log In Frame.
-  
-  5.2) Running tests
-   Tests can be found in the test folder. They can be executed through the system console. Once the user is in the right folder where 
-   modules are stored, the following commands will execute the tests.
-   
-   python test_app.py
-   python test_database.py
    
  6) General Information
   
