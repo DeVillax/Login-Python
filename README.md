@@ -14,19 +14,19 @@ User will be able to log in using its username or email address.
 There are five inputs in this application.
 
 * **First name** 
-Users will introduce a string containing information related to its first name, numbers are allowed in this field.
+Field to enter information related to user´s first name. Numbers are allowed.
 * **Surname**
-Users will enter a string with information related to its surname name, numbers are also allowed in this field. 
+Information related to user's surname. Numbers are also allowed in this field. 
 * **Email Address**
-Users will need to enter a valid email address that must exists as well (e.g. yourvalidemail@validDomain.com). If users do not enter a valid email address, they will be prompted with an error message asking them to enter a valid one.
+Users will need to enter a valid email address that must exists (e.g. yourvalidemail@validDomain.com). If users don't enter a valid email address, they will be prompted with an error message asking them to enter a valid one.
 * **Username**
-This need to be a valid one as the application does not accept duplicates. Therefore, if user enter a username which is already taken, an error message will be displayed.
+This need to be a non-existing one as the application does not accept duplicates. Therefore, if user enters a username which is already taken, an error message will be displayed.
 * **Password**
-This will be the key to access the application. Password must to be 8 character or longer, it must have at least an uppercase letter, it must have at least a number and it needs to have at least one special character"
+This will be the key to access the application. Password must be 8 character or longer, it must have at least an uppercase letter, a number and one special character"
 
 ## 3) Output Considerations
 
-Once the users sign up sucessfully in the application, a message will be displayed to inform them an user have been sucessfully created. If users log in successfully, they will be prompted with a message that they have sucessfully logged into the application.
+Once the user signs up in the application sucessfully, a message will be displayed to inform them the an account has been sucessfully created. If user logs in successfully, they will be prompted with a message that they have sucessfully logged into the application.
 
 ## 4) Testing environment
 
@@ -35,7 +35,7 @@ Python 3.7
 ## 5) How to run the code 
  
  ### 5.1) Running the code
-  This program can be executed through the system console by accessing the directory where files are and executing the following 
+  This program can be launched through the system console by accessing the directory where files are and executing the following 
   command line.
    
   python app.py
